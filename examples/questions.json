@@ -1,7 +1,7 @@
 [
     {
         "question": "What will the following code return?",
-        "code": "from transformers import pipeline\n ner = pipeline(\"ner\", grouped_entities=True)\n ner(\"My name is Sylvain and I work at Hugging Face in Brooklyn.\")",
+        "code": "from transformers import pipeline\nner = pipeline(\"ner\", grouped_entities=True)\nner(\"My name is Sylvain and I work at Hugging Face in Brooklyn.\")",
         "type": "many_choice",
         "answers": [
             {
