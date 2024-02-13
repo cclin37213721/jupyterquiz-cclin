@@ -18,8 +18,8 @@
                 "answer": "It will return the words representing persons, organizations or locations.",
                 "correct": true,
                 "feedback": "Correct."
-            },
-            {
+            }
+        ]
     },
     {
         "question": "Testing parameter to change number of colums for answers: Choose all of the following that can be included in Jupyter notebooks?",
