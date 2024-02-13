@@ -1,9 +1,6 @@
 [
     {
-        "question": "What will the following code return?，
-        from transformers import pipeline
-        ner = pipeline("ner", grouped_entities=True)",
-        
+        "question": "What will the following code return?，from transformers import pipeline, ner = pipeline("ner", grouped_entities=True)",
         "type": "many_choice",
         "answers": [
             {
