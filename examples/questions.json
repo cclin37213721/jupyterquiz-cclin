@@ -1,6 +1,10 @@
 [
     {
-        "question": "Choose all of the following that can be included in Jupyter notebooks?",
+        "question": "What will the following code return?，
+        ```python
+        from transformers import pipeline
+        ner = pipeline("ner", grouped_entities=True)",
+        
         "type": "many_choice",
         "answers": [
             {
