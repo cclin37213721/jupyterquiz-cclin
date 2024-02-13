@@ -1,6 +1,6 @@
 [
     {
-        "question": "What will the following code return?，from transformers import pipeline",
+        "question": "What will the following code return?",
         "type": "many_choice",
         "answers": [
             {
