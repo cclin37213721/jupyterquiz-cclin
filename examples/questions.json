@@ -97,12 +97,12 @@
             {
                 "answer": "The data the model was trained on is biased.",
                 "correct": true,
-                "feedback": ""Correct"
+                "feedback": "Correct"
             },
             {
                 "answer": "The metric the model was optimizing for is biased.",
                 "correct": true,
-                "feedback": ""Correct"
+                "feedback": "Correct"
             }
         ]
     }
