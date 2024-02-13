@@ -1,7 +1,6 @@
 [
     {
         "question": "What will the following code return?，
-        ```python
         from transformers import pipeline
         ner = pipeline("ner", grouped_entities=True)",
         
