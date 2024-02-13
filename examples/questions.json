@@ -1,34 +1,25 @@
 [
     {
         "question": "What will the following code return?",
+        "code": "from transformers import pipeline\n ner = pipeline(\"ner\", grouped_entities=True)\n ner(\"My name is Sylvain and I work at Hugging Face in Brooklyn.\")",
         "type": "many_choice",
         "answers": [
             {
-                "answer": "Text and graphics output from Python",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Typeset mathematics",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Python executable code",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Formatted text",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Live snakes via Python",
+                "answer": "It will return classification scores for this sentence, with labels \"positive\" or \"negative\"",
                 "correct": false,
-                "feedback": "I hope not."
-            }
-        ]
+                "feedback": "not correct."
+            },
+            {
+                "answer": "It will return a generated text completing this sentence.",
+                "correct": false,
+                "feedback": "not Correct."
+            },
+            {
+                "answer": "It will return the words representing persons, organizations or locations.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
     },
     {
         "question": "Testing parameter to change number of colums for answers: Choose all of the following that can be included in Jupyter notebooks?",
